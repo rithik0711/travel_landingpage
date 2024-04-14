@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signin</title>
+    <link rel="stylesheet" href="creative.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <form>
+    <center>
+    <div class="userpass">
+    <h1>LOGIN PAGE</h1>
+    <div class="user">
+        <tr><td><b>User Name</b></td></tr>
+        <tr><td><input class="table" type="text" id="username" name="username" placeholder="username" ></td></tr>
+    </div>
+    <div class="pass">
+        <tr><td><b>Password</b></td></tr>
+        <tr><td><input class="table" type="password" id="password" name="password" placeholder="password"></td></tr>
+    </div>
+    <div class="reset">
+        <tr>
+            <td>
+                <button type="submit" id="loginButton"><b>LOGIN</b></button>
+            </td> 
+            <td>
+                <button type="reset"><b>RESET</b></button>
+            </td>           
+            </tr>
+            <script>
+                document.getElementById('loginButton').addEventListener('click', function() {
+                  window.location.href = 'index.html'; // Redirect to the next page
+                });
+            </script>
+    </div>
+</div>
+</center>
+
+</form>
+</body>
+</html>

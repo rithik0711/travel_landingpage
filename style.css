@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(150, 193, 228);
+    background-size: 1920px 1080px;
+    background-position: top;
+    margin: 0; /* Add margin reset */
+    padding: 0; /* Add padding reset */
+}
+.page {
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.125);
+    font-family: serif;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.logo {
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.menu ul li a {
+    font-size: 20px;
+    letter-spacing: 2px;
+    align-items: center;
+    padding: 5px 20px;
+    text-decoration: none;
+}
+
+.menu ul li a:hover {
+    border-bottom: 4px solid #ffffff;
+}
+
+.signup ul li a:hover {
+    background-color: rgb(255, 255, 255);
+    transition: 0.6s;
+}
+
+.menu ul,
+.signup ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li,
+.signup ul li {
+    margin-right: 20px;
+}
+
+.menu ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(27, 4, 48);
+}
+
+.menu ul li a:hover {
+    border-bottom: 4px solid #000;
+}
+
+.signup button {
+    padding: 12px 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: transparent;
+}
+
+.signup ul li a {
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 30px;
+    padding: 12px 30px;
+    border-radius: 20px;
+    border: 2px solid black;
+    text-decoration: none;
+}
+
+.pic1,
+.pic2,
+.pic3,
+.pic4 {
+    background-color: aliceblue;
+    background-position: center auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    position: absolute;
+    }
+
+.pic1 {
+        padding: 20px 12px;
+        background-image: url("taj.jpg");
+        background-size: cover; /* Ensures the full view */
+        background-position: center; /* Centers the image */
+        bottom: 20px;
+        right: 50px;
+}
+.pic2 {
+    background-image: url("statue.jpg");
+    bottom: 20px; /* Adjust as needed */
+    right: 400px; /* Adjust as needed */
+    background-position: center; /* Centers the image */
+    padding: 20px 12px;
+    background-size: cover; /* Ensures the full view */
+
+}
+
+.pic3 {
+    background-image: url("Delhi-Cover.webp");
+    bottom: 20px; /* Adjust as needed */
+    right: 750px; /* Adjust as needed */
+    background-position: center; /* Centers the image */
+    padding: 20px 12px;
+    background-size: cover; /* Ensures the full view */
+
+}
+.pic4 {
+    background-image: url("china.jpg");
+    bottom: 20px; /* Adjust as needed */
+    right: 1100px; /* Adjust as needed */
+    background-position: center; /* Centers the image */
+    padding: 20px 12px;
+    background-size: cover; /* Ensures the full view */
+}
+.text {
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    transform: translateX(-50%);
+}
+
+.taj,
+.statue,
+.lotus,
+.china{ color: rgb(27, 4, 48);
+font-size: 30px;
+font-style: serif;
+position: center; }
+
+.pic1 .text { top: -40px; right:20px }
+.pic2 .text { top: -40px; right: -65px; }
+.pic3 .text { top: -40px; right: -35px;}
+.pic4 .text { top: -40px; right: -105px;}
+.heading {
+    position: absolute;
+    top: 27px; /* Adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 27px;
+    font-style: sans-serif;
+    color: rgb(27, 4, 48);
+}
+.location {
+    position: absolute;
+    width: 230px;
+    height: 300px;
+    background-color: rgb(164, 226, 244);
+    border-radius: 15px;
+    background-image: url("location.jpg");
+    background-position: top; /* Centers the image */
+    bottom: 360px; /* Adjust as needed */
+    left: 90%;
+    transform: translateX(-50%);
+}

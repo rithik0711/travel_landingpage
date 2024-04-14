@@ -1,0 +1,45 @@
+body{
+    color: blanchedalmond;
+    width:400px;
+    height: 400px;
+    background-image: url("image.png");
+    border-radius: 20px;
+}
+.userpass{
+    width:400px;
+    height:400px;
+    margin-top:50px;
+    margin-bottom: 50px;
+    margin: 200px auto ;
+    margin-left: 600px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 400px;
+    border-color: black;
+    font-style: serif;
+}
+.user{
+    font-style: sans-serif;
+    font-size: 30px;
+}
+.pass{
+    font-style: sans-serif;
+    font-size: 30px;
+}
+.table{
+    margin-top: 40px;
+    width:150px;
+    height:25px;
+}
+.tablepass{
+    margin-top: 80px;
+    width:150px;
+    height:25px;
+} 
+button{
+    color: brown;
+    margin-top: 95px;
+    width:150px;
+    height:35px;
+    font-size: 30px;
+}
+
